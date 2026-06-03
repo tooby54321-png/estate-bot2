@@ -260,7 +260,7 @@ def search_result_text(count: int, params: str) -> str:
             f"як тільки з'явиться підходящий варіант! 🔔"
         )
     return (
-        f"✅ <b>Знайдено {count} {'об'єкт' if count==1 else 'об'єктів' if count<5 else 'об'єктів'}</b>\n\n"
+        f"✅ <b>Знайдено {count} {'об\u02BCєкт' if count==1 else 'об\u02BCєктів'}</b>\n\n"
         f"{params}\n\n"
         f"{DIV}\n"
         f"<i>Показую найкращі варіанти 👇</i>"
